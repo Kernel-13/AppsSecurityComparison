@@ -3,7 +3,7 @@ Based on EFF's [Secure Messaging Scorecard](https://www.eff.org/node/82654)
 
 
 
-| APP | 	Encrypted in transit? | Encrypted so the provider can’t read it? | Can you verify contacts’ identities? | Are past comms secure if your keys are stolen? | Is the code open to independent review? | Is security design properly documented? | Has there been any recent code audit? |
+|   | 	Encrypted in transit? | Encrypted so the provider can’t read it? | Can you verify contacts’ identities? | Are past comms secure if your keys are stolen? | Is the code open to independent review? | Is security design properly documented? | Has there been any recent code audit? |
 |    :---:     |     :---:      |     :---:     |     :---:    |     :---:      |     :---:     |     :---:      |     :---:     |
 | **Facebook Chat**  | YES | [YES (Not the default option)](https://www.engadget.com/2016/10/04/facebook-messenger-now-lets-you-toggle-end-to-end-encryption/) | [YES](https://fbnewsroomus.files.wordpress.com/2016/07/secret_conversations_whitepaper-1.pdf) | [YES](https://fbnewsroomus.files.wordpress.com/2016/07/secret_conversations_whitepaper-1.pdf) | [YES](https://github.com/facebookresearch/asynchronousratchetingtree) | [YES](https://fbnewsroomus.files.wordpress.com/2016/07/secret_conversations_whitepaper-1.pdf) | No records of new audit has been found |
 | **RestroShare**  | YES | YES| YES| YES| YES| YES| [NO (Last Revision on 2016)](https://www.elttam.com.au/blog/a-review-of-the-eff-secure-messaging-scorecard-pt1/) |
